@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../thirdpart/zeromq/include/zmq.h
+errno.h
+-
+stddef.h
+-
+stdio.h
+-
+inttypes.h
+-
+stdint.h
+-
+poll.h
+-
+
+/Users/zl/workstation/myproject/src/zeromq/zeromq_test.cpp
+zeromq_test.h
+/Users/zl/workstation/myproject/src/zeromq/zeromq_test.h
+
+/Users/zl/workstation/myproject/src/zeromq/zeromq_test.h
+zeromq_test.h
+/Users/zl/workstation/myproject/src/zeromq/zeromq_test.h
+../thirdpart/zeromq/include/zmq.h
+/Users/zl/workstation/myproject/src/thirdpart/zeromq/include/zmq.h
+string
+-
+iostream
+-
+unistd.h
+-
+

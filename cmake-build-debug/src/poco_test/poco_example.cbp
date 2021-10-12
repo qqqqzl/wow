@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="poco_example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\division\;CMake Files\src\zeromq\;CMake Files\src\poco_plugin\;CMake Files\src\poco_test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="poco_example">
+				<Option output="/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/poco_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zl/workstation/myproject/include"/>
+					<Add directory="/Users/zl/workstation/myproject/src/division"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/zl/workstation/myproject/src/poco_test/../../thirdpart/pocolib/usr/local/include"/>
+					<Add directory="/Users/zl/workstation/myproject/src/poco_test/../poco_plugin"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 poco_example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="poco_example/fast">
+				<Option output="/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/poco_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zl/workstation/myproject/include"/>
+					<Add directory="/Users/zl/workstation/myproject/src/division"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/zl/workstation/myproject/src/poco_test/../../thirdpart/pocolib/usr/local/include"/>
+					<Add directory="/Users/zl/workstation/myproject/src/poco_test/../poco_plugin"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 poco_example/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zl/workstation/myproject/cmake-build-debug/src/poco_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zl/workstation/myproject/src/poco_test/main.cpp">
+			<Option target="poco_example"/>
+		</Unit>
+		<Unit filename="/Users/zl/workstation/myproject/src/poco_test/poco_plugin_test.cpp">
+			<Option target="poco_example"/>
+		</Unit>
+		<Unit filename="/Users/zl/workstation/myproject/src/poco_test/poco_plugin_test.h">
+			<Option target="poco_example"/>
+		</Unit>
+		<Unit filename="/Users/zl/workstation/myproject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zl/workstation/myproject/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/zl/workstation/myproject/src/division/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\division\"/>
+		</Unit>
+		<Unit filename="/Users/zl/workstation/myproject/src/zeromq/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\zeromq\"/>
+		</Unit>
+		<Unit filename="/Users/zl/workstation/myproject/src/poco_plugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\poco_plugin\"/>
+		</Unit>
+		<Unit filename="/Users/zl/workstation/myproject/src/poco_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\poco_test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

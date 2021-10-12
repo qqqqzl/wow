@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -std=c++11 -O3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/divider_tests.dir/main.cpp.o CMakeFiles/divider_tests.dir/src/divider_tests.cpp.o -o divider_tests  ../src/division/libdivision.a ../lib/libgtest.a 

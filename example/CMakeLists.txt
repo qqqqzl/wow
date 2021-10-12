@@ -1,0 +1,10 @@
+include_directories(${DIVISIBLE_INSTALL_INCLUDE_DIR})
+include_directories(${DIVISION_HEADERS_DIR})
+include_directories(/usr/local/include)
+include_directories(../thirdpart/pocolib/usr/local/include)
+include_directories(../thirdpart/zeromq/include)
+link_directories(../thirdpart/zeromq/lib)
+link_directories(../thirdpart/pocolib/usr/local/lib)
+
+add_subdirectory(poco_plugin_example)
+add_subdirectory(zeromq_example)

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zl/workstation/myproject/src/division/division.cpp
+division.h
+/Users/zl/workstation/myproject/src/division/division.h
+
+/Users/zl/workstation/myproject/src/division/division.h
+iostream
+-
+stdexcept
+-
+
